@@ -3,11 +3,7 @@ import 'dotenv/config'
 import express from 'express'
 import cors from 'cors'
 
-import somar from './service'
-import dobro from './service'
-import temperatura from './service'
-import tabuada from './service'
-import media from './service'
+import {somar, dobro, temperatura, tabuada, media} from './service.js'
 
 const server = express();
 server.use(cors());
